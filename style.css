@@ -1,0 +1,76 @@
+
+body{
+    background-color:yellowgreen;
+    animation-name: khalid;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes khalid {
+    0%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: blueviolet;
+    }
+    100%{
+        background-color: springgreen;
+    }
+}
+.kya{
+    margin-left: 700px;
+    margin-top: 100px   ;
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-color: orangered;
+    border-radius: 10px;
+    border-width: 10px;
+    text-shadow: 10px 10px 10px  blue;    
+    box-shadow: 10px 10px 10px  blue;
+    cursor: pointer;
+}
+.kya:hover
+ {
+     transform: scale(0.6);
+ }
+
+
+ .hi{
+    margin-left: 700px;
+    margin-top: 100px;
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-color: orangered;
+    border-radius: 10px;
+    border-width: 10px;
+    text-shadow: 10px 10px 10px  blue;    
+    box-shadow: 10px 10px 10px  blue;
+    cursor: pointer;
+ }
+ .hi:hover
+ {
+     transform: scale(0.6);
+ }
+
+ .thetext{
+    margin-left: 650px;
+    margin-top: 100px;
+    
+ }
+
+ #text{
+     height: 50px;
+     width: 300px;
+     border-radius: 25px;
+     border-width: 10px;
+     border-color: orangered;
+     background-color: aqua;
+ }
+
+ 
